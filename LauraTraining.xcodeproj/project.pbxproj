@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D30DA77E206240E70012CC2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D30DA77D206240E70012CC2F /* AppDelegate.m */; };
+		D30DA781206240E80012CC2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D30DA780206240E80012CC2F /* ViewController.m */; };
+		D30DA784206240E80012CC2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30DA782206240E80012CC2F /* Main.storyboard */; };
+		D30DA786206240E80012CC2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30DA785206240E80012CC2F /* Assets.xcassets */; };
+		D30DA789206240E80012CC2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30DA787206240E80012CC2F /* LaunchScreen.storyboard */; };
+		D30DA78C206240E80012CC2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D30DA78B206240E80012CC2F /* main.m */; };
+		D30DA796206240E80012CC2F /* LauraTrainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D30DA795206240E80012CC2F /* LauraTrainingTests.m */; };
+		D30DA7A1206240E80012CC2F /* LauraTrainingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D30DA7A0206240E80012CC2F /* LauraTrainingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D30DA792206240E80012CC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D30DA771206240E70012CC2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D30DA778206240E70012CC2F;
+			remoteInfo = LauraTraining;
+		};
+		D30DA79D206240E80012CC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D30DA771206240E70012CC2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D30DA778206240E70012CC2F;
+			remoteInfo = LauraTraining;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D30DA779206240E70012CC2F /* LauraTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LauraTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30DA77C206240E70012CC2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D30DA77D206240E70012CC2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D30DA77F206240E80012CC2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D30DA780206240E80012CC2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D30DA783206240E80012CC2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D30DA785206240E80012CC2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D30DA788206240E80012CC2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D30DA78A206240E80012CC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D30DA78B206240E80012CC2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D30DA791206240E80012CC2F /* LauraTrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LauraTrainingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30DA795206240E80012CC2F /* LauraTrainingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LauraTrainingTests.m; sourceTree = "<group>"; };
+		D30DA797206240E80012CC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D30DA79C206240E80012CC2F /* LauraTrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LauraTrainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30DA7A0206240E80012CC2F /* LauraTrainingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LauraTrainingUITests.m; sourceTree = "<group>"; };
+		D30DA7A2206240E80012CC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D30DA776206240E70012CC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30DA78E206240E80012CC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30DA799206240E80012CC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D30DA770206240E70012CC2F = {
+			isa = PBXGroup;
+			children = (
+				D30DA77B206240E70012CC2F /* LauraTraining */,
+				D30DA794206240E80012CC2F /* LauraTrainingTests */,
+				D30DA79F206240E80012CC2F /* LauraTrainingUITests */,
+				D30DA77A206240E70012CC2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D30DA77A206240E70012CC2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D30DA779206240E70012CC2F /* LauraTraining.app */,
+				D30DA791206240E80012CC2F /* LauraTrainingTests.xctest */,
+				D30DA79C206240E80012CC2F /* LauraTrainingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D30DA77B206240E70012CC2F /* LauraTraining */ = {
+			isa = PBXGroup;
+			children = (
+				D30DA77C206240E70012CC2F /* AppDelegate.h */,
+				D30DA77D206240E70012CC2F /* AppDelegate.m */,
+				D30DA77F206240E80012CC2F /* ViewController.h */,
+				D30DA780206240E80012CC2F /* ViewController.m */,
+				D30DA782206240E80012CC2F /* Main.storyboard */,
+				D30DA785206240E80012CC2F /* Assets.xcassets */,
+				D30DA787206240E80012CC2F /* LaunchScreen.storyboard */,
+				D30DA78A206240E80012CC2F /* Info.plist */,
+				D30DA78B206240E80012CC2F /* main.m */,
+			);
+			path = LauraTraining;
+			sourceTree = "<group>";
+		};
+		D30DA794206240E80012CC2F /* LauraTrainingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D30DA795206240E80012CC2F /* LauraTrainingTests.m */,
+				D30DA797206240E80012CC2F /* Info.plist */,
+			);
+			path = LauraTrainingTests;
+			sourceTree = "<group>";
+		};
+		D30DA79F206240E80012CC2F /* LauraTrainingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D30DA7A0206240E80012CC2F /* LauraTrainingUITests.m */,
+				D30DA7A2206240E80012CC2F /* Info.plist */,
+			);
+			path = LauraTrainingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D30DA778206240E70012CC2F /* LauraTraining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30DA7A5206240E80012CC2F /* Build configuration list for PBXNativeTarget "LauraTraining" */;
+			buildPhases = (
+				D30DA775206240E70012CC2F /* Sources */,
+				D30DA776206240E70012CC2F /* Frameworks */,
+				D30DA777206240E70012CC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LauraTraining;
+			productName = LauraTraining;
+			productReference = D30DA779206240E70012CC2F /* LauraTraining.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D30DA790206240E80012CC2F /* LauraTrainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30DA7A8206240E80012CC2F /* Build configuration list for PBXNativeTarget "LauraTrainingTests" */;
+			buildPhases = (
+				D30DA78D206240E80012CC2F /* Sources */,
+				D30DA78E206240E80012CC2F /* Frameworks */,
+				D30DA78F206240E80012CC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D30DA793206240E80012CC2F /* PBXTargetDependency */,
+			);
+			name = LauraTrainingTests;
+			productName = LauraTrainingTests;
+			productReference = D30DA791206240E80012CC2F /* LauraTrainingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D30DA79B206240E80012CC2F /* LauraTrainingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30DA7AB206240E80012CC2F /* Build configuration list for PBXNativeTarget "LauraTrainingUITests" */;
+			buildPhases = (
+				D30DA798206240E80012CC2F /* Sources */,
+				D30DA799206240E80012CC2F /* Frameworks */,
+				D30DA79A206240E80012CC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D30DA79E206240E80012CC2F /* PBXTargetDependency */,
+			);
+			name = LauraTrainingUITests;
+			productName = LauraTrainingUITests;
+			productReference = D30DA79C206240E80012CC2F /* LauraTrainingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D30DA771206240E70012CC2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Laura Zagaeva";
+				TargetAttributes = {
+					D30DA778206240E70012CC2F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D30DA790206240E80012CC2F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D30DA778206240E70012CC2F;
+					};
+					D30DA79B206240E80012CC2F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D30DA778206240E70012CC2F;
+					};
+				};
+			};
+			buildConfigurationList = D30DA774206240E70012CC2F /* Build configuration list for PBXProject "LauraTraining" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D30DA770206240E70012CC2F;
+			productRefGroup = D30DA77A206240E70012CC2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D30DA778206240E70012CC2F /* LauraTraining */,
+				D30DA790206240E80012CC2F /* LauraTrainingTests */,
+				D30DA79B206240E80012CC2F /* LauraTrainingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D30DA777206240E70012CC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30DA789206240E80012CC2F /* LaunchScreen.storyboard in Resources */,
+				D30DA786206240E80012CC2F /* Assets.xcassets in Resources */,
+				D30DA784206240E80012CC2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30DA78F206240E80012CC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30DA79A206240E80012CC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D30DA775206240E70012CC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30DA781206240E80012CC2F /* ViewController.m in Sources */,
+				D30DA78C206240E80012CC2F /* main.m in Sources */,
+				D30DA77E206240E70012CC2F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30DA78D206240E80012CC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30DA796206240E80012CC2F /* LauraTrainingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30DA798206240E80012CC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30DA7A1206240E80012CC2F /* LauraTrainingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D30DA793206240E80012CC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D30DA778206240E70012CC2F /* LauraTraining */;
+			targetProxy = D30DA792206240E80012CC2F /* PBXContainerItemProxy */;
+		};
+		D30DA79E206240E80012CC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D30DA778206240E70012CC2F /* LauraTraining */;
+			targetProxy = D30DA79D206240E80012CC2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D30DA782206240E80012CC2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30DA783206240E80012CC2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D30DA787206240E80012CC2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30DA788206240E80012CC2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D30DA7A3206240E80012CC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D30DA7A4206240E80012CC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D30DA7A6206240E80012CC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LauraTraining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurazagaeva.LauraTraining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D30DA7A7206240E80012CC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LauraTraining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurazagaeva.LauraTraining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D30DA7A9206240E80012CC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LauraTrainingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurazagaeva.LauraTrainingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LauraTraining.app/LauraTraining";
+			};
+			name = Debug;
+		};
+		D30DA7AA206240E80012CC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LauraTrainingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurazagaeva.LauraTrainingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LauraTraining.app/LauraTraining";
+			};
+			name = Release;
+		};
+		D30DA7AC206240E80012CC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LauraTrainingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurazagaeva.LauraTrainingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LauraTraining;
+			};
+			name = Debug;
+		};
+		D30DA7AD206240E80012CC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LauraTrainingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurazagaeva.LauraTrainingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LauraTraining;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D30DA774206240E70012CC2F /* Build configuration list for PBXProject "LauraTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30DA7A3206240E80012CC2F /* Debug */,
+				D30DA7A4206240E80012CC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D30DA7A5206240E80012CC2F /* Build configuration list for PBXNativeTarget "LauraTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30DA7A6206240E80012CC2F /* Debug */,
+				D30DA7A7206240E80012CC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D30DA7A8206240E80012CC2F /* Build configuration list for PBXNativeTarget "LauraTrainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30DA7A9206240E80012CC2F /* Debug */,
+				D30DA7AA206240E80012CC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D30DA7AB206240E80012CC2F /* Build configuration list for PBXNativeTarget "LauraTrainingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30DA7AC206240E80012CC2F /* Debug */,
+				D30DA7AD206240E80012CC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D30DA771206240E70012CC2F /* Project object */;
+}
