@@ -15,6 +15,7 @@
 		D30DA78C206240E80012CC2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D30DA78B206240E80012CC2F /* main.m */; };
 		D30DA796206240E80012CC2F /* LauraTrainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D30DA795206240E80012CC2F /* LauraTrainingTests.m */; };
 		D30DA7A1206240E80012CC2F /* LauraTrainingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D30DA7A0206240E80012CC2F /* LauraTrainingUITests.m */; };
+		D30DA7B0206241110012CC2F /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = D30DA7AF206241110012CC2F /* Human.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D30DA79C206240E80012CC2F /* LauraTrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LauraTrainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30DA7A0206240E80012CC2F /* LauraTrainingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LauraTrainingUITests.m; sourceTree = "<group>"; };
 		D30DA7A2206240E80012CC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D30DA7AE206241110012CC2F /* Human.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		D30DA7AF206241110012CC2F /* Human.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		D30DA77B206240E70012CC2F /* LauraTraining */ = {
 			isa = PBXGroup;
 			children = (
+				D30DA7AE206241110012CC2F /* Human.h */,
+				D30DA7AF206241110012CC2F /* Human.m */,
 				D30DA77C206240E70012CC2F /* AppDelegate.h */,
 				D30DA77D206240E70012CC2F /* AppDelegate.m */,
 				D30DA77F206240E80012CC2F /* ViewController.h */,
@@ -268,6 +273,7 @@
 				D30DA781206240E80012CC2F /* ViewController.m in Sources */,
 				D30DA78C206240E80012CC2F /* main.m in Sources */,
 				D30DA77E206240E70012CC2F /* AppDelegate.m in Sources */,
+				D30DA7B0206241110012CC2F /* Human.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

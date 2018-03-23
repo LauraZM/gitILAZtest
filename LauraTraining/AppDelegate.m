@@ -7,18 +7,47 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Human.h"
 @interface AppDelegate ()
 
 @end
-
 @implementation AppDelegate
+
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    Human* isa  = [[Human alloc] init] ;
+    [isa setName: @"Isa"];
+    [isa setAge: 20];
+    [isa setHeight: 1.78f];
+    [isa setWeight: 82];
+    
+    Human* laura = [[Human alloc] init ];
+    
+    [isa setBelovedPerson: laura];
+    [laura setBelovedPerson:isa];
+    
+    Human* linda = [[Human alloc] init];
+    Human* aslambek = [[Human alloc] init];
+    [aslambek setBelovedPerson:linda];
+    [linda setBelovedPerson:aslambek];
+    
+    Human* hasambek = [[Human alloc] init];
+    Human* fatima = [[Human alloc] init];
+    [hasambek setBelovedPerson:fatima];
+    [fatima setBelovedPerson:hasambek];
+  
+    [Human tellAboutYourself];
+    
+    
+    
+    
+    
     return YES;
 }
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
